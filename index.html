@@ -240,29 +240,37 @@
 
   @media (max-width: 768px) {
   .block-photo img {
-  object-fit: contain !important;
-}
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain !important;
+    display: block;
+    margin: 0 auto;
+  }
+
   .block, .event-block, .calendar-block {
     flex-direction: column !important;
     text-align: center;
     padding: 40px 20px;
   }
+
   .block-text, .event-info, .calendar-text {
     font-size: 1.1rem;
   }
+
   .block-photo, .event-info img {
     max-width: 90%;
     margin: 0 auto;
     animation-delay: 0.3s !important;
   }
+
   .video-text {
     font-size: 2rem;
     max-width: 90%;
     padding: 0 20px;
   }
- 
+}
 
-  }
 </style>
 </head>
 <body>
