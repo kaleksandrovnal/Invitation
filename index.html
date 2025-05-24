@@ -262,12 +262,7 @@
 
   @media (max-width: 768px) {
   .block-photo img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
     object-fit: contain !important;
-    display: block;
-    margin: 0 auto;
   }
 
   .block, .event-block, .calendar-block {
@@ -286,12 +281,20 @@
     animation-delay: 0.3s !important;
   }
 
+  .event-info img {
+    display: block;
+    max-width: 90%;
+    margin: 20px auto 0 auto;
+    animation-delay: 0.3s !important;
+  }
+
   .video-text {
     font-size: 2rem;
     max-width: 90%;
     padding: 0 20px;
   }
 }
+
 
 </style>
 </head>
